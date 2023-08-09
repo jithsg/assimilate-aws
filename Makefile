@@ -7,7 +7,7 @@ test:
 	#python -m pytest -vv test_*.py
 
 format:	
-	black *.py awstools/*.py codewhisper/*.py copilot/*.py
+	black *.py awstools/*.py codewhisper/*.py copilot/*.py codewhisper1/*.py
 
 lint:
 	pylint --disable=R,C --ignore-patterns=test_.*?py *.py awstools/*.py codewhisper/*.py copilot/*.py
